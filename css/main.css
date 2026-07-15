@@ -90,3 +90,12 @@ main>.container>.row>aside {
     display: flex;
     flex-direction: column;
 }
+
+#contactForm {
+    max-width: 550px;
+}
+
+/* Bug das setas no tema "dark" */
+.carousel {
+    --bs-carousel-control-icon-filter: none;
+}
